@@ -18,7 +18,12 @@
     <h1>I`m Vladislav.</h1>
     <h2 class="web-dev">web <span class="pro">dev</span>eloper</h2>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-png">
-    <img class="mountain" src="images/mountain.png" alt="mountain-png">
+    <picture>
+      <source media="(min-width: 1024px)" srcset="mountain-png">
+      <source media="(min-width: 768px)" srcset="mountain-png">
+      <source media="(min-width: 360px)" srcset="mountain-png">
+      <img class="mountain" src="images/mountain.png" alt="mountain-png">
+    </picture>
   </div>
   <div class="middle-container">
     <div class="profile">
